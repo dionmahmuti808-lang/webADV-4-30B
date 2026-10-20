@@ -15,3 +15,25 @@ ol{
   background-color: #ffeeee;
   border: 2px solid grey;
 }
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid #eee;
+    padding: 15px
+}
+
+tbody tr:nth-child(odd){
+    background-color: #ff33cf;
+}
+
+
+tbody tr:nth-child(even){
+    background-color: #e495e4;
+}
+
+thead{
+    background-color: purple;
+}

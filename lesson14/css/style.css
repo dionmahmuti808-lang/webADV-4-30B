@@ -1,0 +1,70 @@
+/*Combinators*/
+
+
+article p{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+
+/*child*/
+
+article > p{
+    background-color: red;
+}
+
+/*General sibling*/
+
+article ~ p{
+    background-color: purple;
+    color: white;
+    padding: 20px;
+}
+
+/*adjacent sibling*/
+
+article + p{
+    background-color: orange;
+}
+
+p:hover{
+    background-color: aqua;
+}
+
+p:first-child{
+    background-color: green;
+}
+
+input:out-of-range{
+    background-color: 3px solid green;
+}
+
+input:in-range{
+    background-color: 3px solid red;
+}
+
+input:required{
+  background-color: whitesmoke;
+}
+
+input:focus{
+  background-color: yellow;
+}
+
+span:first-of-type{
+    background-color:black;
+    color: white;
+    padding: 20px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+p::first-line{
+    color: blue;
+}
+
+h1::after{
+    content: " - After heading 1 ";
+}
